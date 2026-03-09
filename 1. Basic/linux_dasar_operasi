@@ -14,8 +14,11 @@
 	```bash cd ./<direktori_dituju>/<dir2>/<dir3>```
 3. Cara Scroll up dan scroll down di terminal 
 	```bash  ctrl+pageUp``` atau ```bash ctrl+pageDown```
-4. Cara melihat isi dari direktori 
+4. Cara melihat isi dari direktori
+ 	- Umum
 	```bash ls```
+	- Melihat isi Folder Detail
+	```bash ls -l``` atau ```bash ls -la```
 5. Cara melihat isi File
 	- Melihat file dan mengeditnya
 	```bash nano <nama_file>```
@@ -27,3 +30,18 @@
 	```bash head <nama_file>```
 	- Melihat beberapa baris terakhir file
 	```bash tail <nama_file>```
+6. Memindahkan Direktori dan File
+	- Memindahkan file ke folder
+	```bash mv <nama_file> <direktori_nama_folder>/```
+	- Memindahkan file ke direktori lain
+	```bash mv <nama_file> /home/radjikin/public```
+	- Mengganti nama file
+	```bash mv <nama_file_lama> <nama_file_baru>``` 
+	- Memindahkan folder 
+	```bash mv <folder1> <folder2>```
+	- Mengganti nama folder
+	```bash mv <nama_folder_lama> <nama_folder_baru>```
+7. Melihat lokasi direktori 
+	```bash pwd```
+8. Membersihkan log terminal
+	```bash clear``` atau ```bash ctrl+ L```
