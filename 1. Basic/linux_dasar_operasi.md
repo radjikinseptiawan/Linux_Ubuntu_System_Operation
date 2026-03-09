@@ -47,7 +47,7 @@
 	``` clear``` atau ```bash ctrl+ L```
 9. Menyalin Folder atau file 
 	``` cp folder1 folder2``` atau ```cp file1.txt folder/```
-10.Menjalankan perintah dengan hak administrator
+10. Menjalankan perintah dengan hak administrator
 	- ``` sudo apt update``` = refresh daftar paket terbaru
 	- ``` sudo apt upgrade``` = update semua paket yang terinstall
 	- ``` sudo apt install``` = menginstall software
