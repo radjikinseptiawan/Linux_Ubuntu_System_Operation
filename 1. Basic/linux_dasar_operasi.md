@@ -45,3 +45,18 @@
 	```bash pwd```
 8. Membersihkan log terminal
 	```bash clear``` atau ```bash ctrl+ L```
+9. Menyalin Folder atau file 
+	```bash cp folder1 folder2``` atau ```bash cp file1.txt folder/```
+10.Menjalankan perintah dengan hak administrator
+	- ```bash sudo apt update``` = refresh daftar paket terbaru
+	- ```bash sudo apt upgrade``` = update semua paket yang terinstall
+	- ```bash sudo apt install``` = menginstall software
+	- ```bash sudo apt remove``` = menghapus software
+11. ubah permission file/folder
+	- ```bash chmod```
+	tipe tipe chamod 
+		- u = user = pemilik file
+		- g = group = group pemilik file
+		- o = others = semua orang lain
+12. ubah pemilik folder atau file
+	- ```bash sudo chown radjikin:radjikin file.txt``` = file txt sekarang menjadi miliki radjikin dan grup radjikin```
