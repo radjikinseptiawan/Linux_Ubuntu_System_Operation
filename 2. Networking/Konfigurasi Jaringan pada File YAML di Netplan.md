@@ -10,12 +10,19 @@ Netplan memiliki konfigurasi default seperti ini
 
 # Penjelasan & Konfigurasi IP Dinamis
 | Bagian    |              Fungsi            |
+----------------------------------------------
 | network   | root konfigurasi jaringan      |
+----------------------------------------------
 | version   | versi format netplan           |
+----------------------------------------------
 | renderer  | sistem yang mengelola jaringan |
+----------------------------------------------
 | ethernets | interface jaringan kabel       |
+----------------------------------------------
 | enp0s3    | nama interface                 |
+----------------------------------------------
 | dhcp4:true| ambil IP dari DHCP             |
+----------------------------------------------
 
 Kalau kamu ingin Ubuntu mendapatkan ip secara otomatis dari router/hotspot maka
 biarkan setinggan default setelahnya jalankan command 
@@ -42,7 +49,10 @@ jika terdapat tulisan inet maka sistem telah berhasil di setting otomatis dari r
            - 8.8.8.8
            - 1.1.1.1```
 |  Bagian     |   Fungsi  |
+---------------------------
 | addresses   | IP Statis |
+---------------------------
 |  routes     | Gateway   |
+---------------------------
 | nameservers |  DNS      |
-
+---------------------------
