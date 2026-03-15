@@ -6,23 +6,23 @@ Netplan memiliki konfigurasi default seperti ini
        renderer: networkd
         ethernets:
          enp0s3:
- 	  dhcp:true```
+ 	  dhcp:true ```
 
 # Penjelasan & Konfigurasi IP Dinamis
 | Bagian    |              Fungsi            |
-----------------------------------------------
+| -------------------------------------------|
 | network   | root konfigurasi jaringan      |
-----------------------------------------------
+| -------------------------------------------|
 | version   | versi format netplan           |
-----------------------------------------------
+| -------------------------------------------|
 | renderer  | sistem yang mengelola jaringan |
-----------------------------------------------
+| -------------------------------------------|
 | ethernets | interface jaringan kabel       |
-----------------------------------------------
+| -------------------------------------------|
 | enp0s3    | nama interface                 |
-----------------------------------------------
+| -------------------------------------------|
 | dhcp4:true| ambil IP dari DHCP             |
-----------------------------------------------
+|--------------------------------------------|
 
 Kalau kamu ingin Ubuntu mendapatkan ip secara otomatis dari router/hotspot maka
 biarkan setinggan default setelahnya jalankan command 
@@ -34,25 +34,24 @@ jika terdapat tulisan inet maka sistem telah berhasil di setting otomatis dari r
 
 
 # Penjelasan & Konfigurasi IP Statis
-```
- network:
-   version: 2
-    ethernets:
-      enp0s3:
-        dhcp4: false
-        addresses: 10.69.180.92/24
-         routes:
-         - to: default 
-           via: 10.69.180.1
-          nameservers:
-           addresses:
-           - 8.8.8.8
-           - 1.1.1.1```
+``` network:
+     version: 2
+      ethernets:
+       enp0s3:
+         dhcp4: false
+         addresses: 10.69.180.92/24
+          routes:
+          - to: default 
+            via: 10.69.180.1
+           nameservers:
+            addresses:
+            - 8.8.8.8
+            - 1.1.1.1 ```
 |  Bagian     |   Fungsi  |
----------------------------
+|-------------------------|
 | addresses   | IP Statis |
----------------------------
+|-------------------------|
 |  routes     | Gateway   |
----------------------------
+|-------------------------|
 | nameservers |  DNS      |
----------------------------
+|-------------------------|
