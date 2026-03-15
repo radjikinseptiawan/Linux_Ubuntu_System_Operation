@@ -5,7 +5,7 @@ Module ini menjelaskan tentang segala hal yg penulis alami dalam mengulik networ
 folder etc pada ubuntu adalah direktori pusat sistem yang menyimpan berbagai
 berkas konfigurasi sistem-wide(berlaku untuk seluruh sistem), seperti pengaturan
 jaringan, akun pengguna, konfigurasi layanan dan skrip startup. ini sering
-disebut sebagai pusah konfigurasi sistm dimana perubahan d sini memengaruhi
+disebut sebagai pusat konfigurasi sistem dimana perubahan d sini memengaruhi
 perilaku aplikasi dan OS
 
 Dalam Konfigurasi jaringan didalam folder etc ini terdapat 5 folder yang berkaitan dengan jaringan 
